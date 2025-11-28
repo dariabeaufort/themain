@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-namespace IBusko {
+namespace Jrwh {
 	struct MenuItem {
 		const char* const title;
 		const MenuItem* (*func)(const MenuItem* current);

@@ -2,7 +2,7 @@
 
 #include "menu.hpp"
 
-namespace IBusko {
+namespace Jrwh {
 	extern const MenuItem MAIN;
 	
 	extern const MenuItem STUDY;

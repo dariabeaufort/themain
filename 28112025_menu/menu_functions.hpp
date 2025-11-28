@@ -2,7 +2,7 @@
 
 #include "menu.hpp"
 
-namespace IBusko {
+namespace Jrwh {
 	const MenuItem* show_menu(const MenuItem* current);
 	
 	const MenuItem* exit(const MenuItem* current);

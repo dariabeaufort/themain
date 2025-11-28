@@ -6,9 +6,7 @@
 #include "menu_items.hpp"
 
 int main() {
-	std::setlocale(LC_ALL, "");
-	
-	const IBusko::MenuItem* current = &IBusko::MAIN;	
+	const Jrwh::MenuItem* current = &Jrwh::MAIN;	
 	do {
 		current = current->func(current);
 	} while (true);
