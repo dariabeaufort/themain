@@ -28,19 +28,19 @@ namespace {
 }
 
 const JBeau::MenuItem JBeau::WATCH_UNI_SPBU = {
-	"1 - СПбГУ", JBeau::watch_uni_spbu, &JBeau::WATCH_UNI, nullptr, 0
+	"1 - СПбГУ", JBeau::show_menu, &JBeau::WATCH_UNI, spbu_children, spbu_size
 };
 
 const JBeau::MenuItem JBeau::WATCH_UNI_ITMO = {
-	"2 - ИТМО", JBeau::watch_uni_itmo, &JBeau::WATCH_UNI, nullptr, 0
+	"2 - ИТМО", JBeau::show_menu, &JBeau::WATCH_UNI, nullptr, 0
 };
 
 const JBeau::MenuItem JBeau::WATCH_UNI_POLITECH = {
-	"3 - Политех", JBeau::watch_uni_politech, &JBeau::WATCH_UNI, nullptr, 0
+	"3 - Политех", JBeau::show_menu, &JBeau::WATCH_UNI, nullptr, 0
 };
 
 const JBeau::MenuItem JBeau::WATCH_UNI_LETI = {
-	"4 - ЛЭТИ", JBeau::watch_uni_leti, &JBeau::WATCH_UNI, nullptr, 0
+	"4 - ЛЭТИ", JBeau::show_menu, &JBeau::WATCH_UNI, nullptr, 0
 };
 
 const JBeau::MenuItem JBeau::WATCH_UNI_BACK_TO_MAIN = {

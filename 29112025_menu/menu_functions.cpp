@@ -4,12 +4,12 @@
 #include <iostream>
 
 const JBeau::MenuItem* JBeau::show_menu(const MenuItem* current) {
-	std::cout << "Главное меню выбора университета и факультета." << std::endl;
+	std::cout << "Меню выбора университета и факультета." << std::endl;
 	for (int i = 1; i < current->children_count; i++) {
 		std::cout << current->children[i]->title << std::endl;
 	}
 	std::cout << current->children[0]->title << std::endl;
-	std::cout << "Выбор университета > " << std::endl;
+	std::cout << "Выбор университета > ";
 
 	int user_input;
 	std::cin >> user_input;
